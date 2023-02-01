@@ -23,6 +23,8 @@ public class Omayodemo {
 	private static final Class<? extends Throwable> NosuchElementException = null;
 
 	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.println("THe code is updated in newbranch");
 
 		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
